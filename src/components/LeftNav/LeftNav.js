@@ -4,7 +4,20 @@ import PropTypes from 'prop-types';
 
 const LeftNav = () => (
   <div>
-    LeftNav Component
+          <ul className="sidebar-nav navbar-light bg-light navbar-nav w-25 h-100">
+              <li className="nav-item">
+                  <a className="nav-link" href="#">1ère visite</a>
+              </li>
+              <li className="nav-item">
+                  <a className="nav-link" href="#">Adaptation</a>
+              </li>
+              <li className="nav-item">
+                  <a className="nav-link" href="#">Patients</a>
+              </li>
+              <li className="nav-item">
+                  <a className="nav-link" href="#">Patients</a>
+              </li>
+          </ul>
   </div>
 );
 
